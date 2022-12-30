@@ -20,7 +20,7 @@
 
 html{
     font-size: 16px;
-    font-family: "Helvetica", Sans-serif;
+    font-family: "Lato",sans-serif !important;
 }
 
 body{
@@ -153,6 +153,11 @@ nav ul li ul li a {
    flex-direction: column;
  }
 }
+@media screen and (max-width: 500px) {
+  .teamplayer{
+    flex-direction: column;
+  }
+}
 #nav-toggle {
   position: absolute;
   left: 18px;
@@ -252,13 +257,13 @@ main{
 }
 
 h1{
-  margin: 20px 0 250px 0;
+  margin: 60px 0 250px 0;
   width: 100%;
   font-size: 35px;
   text-align: center;
   color: #1B262C;
   font-weight: 300;
-  font-family: "Lato",sans-serif !important;
+  font-family: "Lato",sans-serif;
   background: rgba(252, 247, 248, 0.5);
 }
 
@@ -275,7 +280,7 @@ h3{
 .underheading{
   margin: 20px 0 25px 0;
   width: 100%;
-  font-weight: 300;
+  font-weight: 400;
   font-size: 25px;
   text-align: center;
   color: #1B262C;
@@ -291,8 +296,6 @@ footer > p {
 
 .mainpics{
   max-width: 100%;
-  margin: 0 auto;
-  width: 900px;
  
 }
 
@@ -318,6 +321,7 @@ footer > p {
   justify-content: space-evenly;
   display: flex;
   flex-direction: column;
+  margin-bottom: 50px;
 }
 
 .googlelogo{
@@ -336,7 +340,8 @@ footer > p {
   color: #1B262C;
   font-size: 40px;
   text-align: center;
-  margin: 20px 0 15px 0;
+  margin: 0 0 15px 0;
+  font-family: "Lato",sans-serif;
 }
 
 .testwrap{
@@ -388,5 +393,62 @@ color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
+  height: 590px;
 }
 
+.bigtext{
+  text-align: center;
+  margin: 0 15px 15px 15px;
+  font-weight: 300;
+  color:#1B262C;
+  font-size: 20px;
+ 
+}
+
+.teamcontainer{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.teamplayer{
+  width: 100%;
+  display: flex;
+  align-items:center;
+  justify-content: space-evenly;
+}
+
+.teaminfo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  justify-content: space-evenly;
+}
+
+.teamplayer > img{
+  height: 200px;
+  width: 200px;
+}
+
+.teaminfo > p{
+  font-size: 20px;
+}
+
+.aboutuspic{
+  width: 100%;
+  height: auto;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/Large-dental-office.jpg");
+  background-repeat: none;
+  background-size: cover;
+  align-items: center;
+  height: 450px;
+  background-position-x: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.role{
+  font-weight: 300;
+}
