@@ -202,6 +202,7 @@ footer{
   color: #ffffff;
   padding: 10px;
 justify-content: space-evenly;
+flex-direction: column;
 }
 
 .footwrap{
@@ -220,16 +221,12 @@ justify-content: space-evenly;
     font-size: 20px;
 }
 
-.adressbox > ul{
-  list-style-type: none;
-}
-
 
 .socials{
   display: flex;
   width: 100%;
-  align-items: center;
-  justify-content: center;
+  align-items:center;
+  justify-content:space-evenly;
 }
 
 .socials > img {
@@ -239,10 +236,10 @@ justify-content: space-evenly;
 .navigationfoot{
     width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: inherit;
-    font-size: 20px;
+    font-size: 25px;
+    margin: 20px;
 }
 main{
   display: flex;
@@ -284,20 +281,37 @@ h3{
 }
 
 
-footer > p {
-  text-align: center;
-  width: 100%;
-  margin-top: 10px;
+.footerinfo{
+  font-size: 20px;
 }
+
 
 .mainpics{
   max-width: 100%;
  
 }
 
+.footersplit{
+  width: 100%;
+display: flex;
+align-items: center;
+justify-content:space-evenly;
+margin-bottom: 35px;
+}
+
+.footercontact > p{
+font-size: 20px;
+}
+
+.footerhours> p{
+  font-size: 20px;
+  }
+  
+
 
 .navigationfoot > a{
   color: #FFFFFF;
+  margin-bottom: 10px;
 }
 
 .landinglogo{
@@ -330,6 +344,14 @@ footer > p {
   font-size: 40px;
   text-align: center;
   margin: 20px 0 15px 0;
+}
+
+.footerheader{
+  color: #FFFFFF;
+  font-size: 25px;
+  text-align: center;
+  margin: 20px 0 15px 0;
+  text-decoration: underline;
 }
 
 .blackheader{
@@ -370,6 +392,12 @@ color: #FFFFFF;
 @media screen and (max-width: 500px) {
   .teamcontainer{
   flex-direction: column;
+  }
+  .footersplit{
+    flex-direction: column;
+  }
+  .navigationfoot{
+    flex-direction: column;
   }
 }
 
