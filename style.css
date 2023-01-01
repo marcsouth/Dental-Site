@@ -153,11 +153,7 @@ nav ul li ul li a {
    flex-direction: column;
  }
 }
-@media screen and (max-width: 500px) {
-  .teamplayer{
-    flex-direction: column;
-  }
-}
+
 #nav-toggle {
   position: absolute;
   left: 18px;
@@ -350,6 +346,7 @@ footer > p {
   align-items: center;
   justify-content: space-evenly;
   padding:10px;
+  flex-direction: column;
 }
 
 .testimonial{
@@ -364,9 +361,16 @@ text-align: center;
 font-size:16px;
 color: #FFFFFF;
 }
+
 .whitelogo{
   height: 50px;
   margin-top: 12px;
+}
+
+@media screen and (max-width: 500px) {
+  .teamcontainer{
+  flex-direction: column;
+  }
 }
 
 .author{
@@ -393,7 +397,7 @@ color: #FFFFFF;
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
-  height: 590px;
+  height: 450px;
 }
 
 .bigtext{
@@ -407,16 +411,21 @@ color: #FFFFFF;
 
 .teamcontainer{
   display: flex;
-  flex-direction: column;
   width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .teamplayer{
   width: 100%;
   display: flex;
-  align-items:center;
-  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 35px;
+  /* padding-bottom: 35px; */
+  justify-content: space-around;
+  flex-direction: column;
 }
+
 
 .teaminfo{
   display: flex;
@@ -424,11 +433,14 @@ color: #FFFFFF;
   align-items: center;
   height: 100px;
   justify-content: space-evenly;
+  color:#1B262C;
 }
 
 .teamplayer > img{
   height: 200px;
   width: 200px;
+  display: flex;
+  align-self: center;
 }
 
 .teaminfo > p{
@@ -451,4 +463,112 @@ color: #FFFFFF;
 
 .role{
   font-weight: 300;
+}
+
+.servicepic{
+  width: 100%;
+  height: auto;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/rockin\ norm.jpg");
+  background-repeat: none;
+  background-size: cover;
+  align-items: center;
+  height: 450px;
+  background-position-x: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.restorativepic{
+  width: 100%;
+  height: auto;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/GettyImages-1302979557.webp");
+  background-repeat: none;
+  background-size: cover;
+  align-items: center;
+  height: 450px;
+  background-position-x: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cosmeticpic{
+  width: 100%;
+  height: auto;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/the-lifespan-of-a-dental-filling.jpg");
+  background-repeat: none;
+  background-size: cover;
+  align-items: center;
+  height: 450px;
+  background-position-x: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.prospheticpic{
+  width: 100%;
+  height: auto;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/Pediatric.webp");
+  background-repeat: none;
+  background-size: cover;
+  align-items: center;
+  height: 450px;
+  background-position-x: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pediatricpic{
+  width: 100%;
+  height: auto;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/2017-02-ChildrensDentalMonth.jpg");
+  background-repeat: none;
+  background-size: cover;
+  align-items: center;
+  height: 450px;
+  background-position-x: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.factcontainer > img{
+  height: 50px;
+  margin-bottom: 15px;
+}
+
+.factcontainer{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 15px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.factcontainer > .facttextwrap{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.facttitle{
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    color: #3282B8;
+    font-family: 'Lato';
+    margin-bottom: 15px;
+}
+.fact{
+  font-weight: 400;
+  color: #1B262C;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 15px 0 15px;
 }
