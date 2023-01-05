@@ -270,6 +270,18 @@ h3{
   color: #1B262C;
 }
 
+.aboutqoute{
+  margin: 20px 0 50px 0;
+  width: 100%;
+  font-weight: 300;
+  font-size: 25px;
+  font-family: 'Lato';
+  text-align: center;
+  color: #1B262C;
+}
+
+
+
 .underheading{
   margin: 20px 0 25px 0;
   width: 100%;
@@ -554,6 +566,20 @@ color: #FFFFFF;
   width: 100%;
   height: auto;
   background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/2017-02-ChildrensDentalMonth.jpg");
+  background-repeat: none;
+  background-size: cover;
+  align-items: center;
+  height: 450px;
+  background-position-x: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactpic{
+  width: 100%;
+  height: auto;
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/demoffice.jpg");
   background-repeat: none;
   background-size: cover;
   align-items: center;
