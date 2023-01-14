@@ -383,16 +383,16 @@ font-size: 20px;
 }
 
 .testimonial{
-  background: rgba(255, 255, 255, 0.1);
-  border: 2px solid rgba(255, 255, 255, 0.2);
+  background: white;
+  border: 5px solid rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(10px);
-width: 100%;
-margin:5px;
-padding: 20px;
-border-radius: 10px;
-text-align: center;
-font-size:16px;
-color: #FFFFFF;
+  width: 100%;
+  margin: 5px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 16px;
+  color: #1B262C;
 }
 
 .whitelogo{
@@ -642,9 +642,7 @@ color: #FFFFFF;
   height: 50px;
 }
 
-.expertise > p{
-  text-decoration: underline;
-}
+
 
 
 
