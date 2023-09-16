@@ -761,15 +761,12 @@ font-size: 20px;
   filter: drop-shadow(1px 1px 2px black);
   cursor: pointer;
 }
-.service-card > p:hover {
+
+.service-card > p{
   background: rgb(50,130,184);
   background: linear-gradient(22deg, rgba(50,130,184,1) 54%, rgba(0,212,255,1) 100%);
   color: white;
-}
-.service-card > p{
-  background: white;
   font-size: large;
-  color: #1B262C;
   border-radius: 5px;
   padding-block: 10px;
   text-transform: uppercase;
