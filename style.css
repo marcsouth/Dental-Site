@@ -706,11 +706,17 @@ font-size: 20px;
 }
 .custom-shape-divider-bottom-1694305696 {
   position: absolute;
-  bottom: 0 !important;
+  bottom: 0;
   left: 0;
   width: 100%;
   overflow: hidden;
   line-height: 0;
+}
+.custom-shape-divider-bottom-1694305696 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 70px;
 }
 .red-highlight{
   color: red;
