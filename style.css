@@ -284,6 +284,7 @@ h3{
   font-family: 'Lato';
   text-align: center;
   color: #1B262C;
+  padding-inline: 20px;
 }
 
 .aboutqoute{
@@ -293,10 +294,9 @@ h3{
     font-family: 'Lato';
     text-align: center;
     color: #1B262C;
-    max-width: 800px;
     margin: auto;
     line-height: 140%;
-    margin-bottom: 2rem;
+    padding-inline: 20px;
 }
 
 
@@ -309,6 +309,7 @@ h3{
   color: #1B262C;
   font-family: 'Lato';
   line-height: 140%;
+  padding-inline: 20px;
 }
 
 
@@ -452,6 +453,7 @@ font-size: 20px;
   max-width: 1200px;
   margin: auto;
   margin-top: 15px;
+  padding-inline: 20px;
  
 }
 
@@ -470,7 +472,7 @@ font-size: 20px;
 }
 .services-container{
     display: flex;
-    max-width: 900px;
+    max-width: 1400px;
     justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
@@ -751,7 +753,7 @@ font-size: 20px;
   width: 100%;
   text-align: center;
   text-align: center;
-  max-width: 150px;
+  max-width: 250px;
   font-size: 25px;
   border-radius: 5px;
   padding: 5px;
@@ -787,6 +789,10 @@ font-size: 20px;
   color: #FFFFFF;
 }
 
+.background-white{
+  background: white;
+}
+
 
 @media screen and (max-width: 500px) {
   .footersplit{
@@ -809,6 +815,9 @@ font-size: 20px;
   }
   .prospheticpic{
     height: 450px;
+  }
+  .service-card{
+    max-width: 150px;
   }
 }
 
