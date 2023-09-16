@@ -710,7 +710,6 @@ font-size: 20px;
   bottom: 0;
   left: 0;
   width: 100%;
-  height: auto; /* Set height to auto to maintain aspect ratio */
   overflow: hidden;
   line-height: 0;
 }
