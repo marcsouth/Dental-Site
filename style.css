@@ -436,11 +436,11 @@ font-size: 20px;
 
 
 .grouppic{
-  background-image: url(/pictures/group.jpg);
+  background-image: url(/pictures/normpics/group-pic.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position-x: center;
-  height: 600px;
+  height: 60vh;
   background-position: center;
 }
 
@@ -522,7 +522,7 @@ font-size: 20px;
 .aboutuspic{
   width: 100%;
   height: auto;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/Large-dental-office.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/normpics/office.jpg");
   background-repeat: none;
   background-size: cover;
   align-items: center;
@@ -531,7 +531,7 @@ font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-position: center;
+  background-position: right;
 }
 
 .role{
@@ -621,7 +621,7 @@ font-size: 20px;
 .contactpic{
   width: 100%;
   height: auto;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/demoffice.jpg");
+  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/normpics/contact.jpg");
   background-repeat: none;
   background-size: cover;
   align-items: center;
@@ -784,6 +784,7 @@ font-size: 20px;
 }
 .image-qoute > img{
   width: 100%;
+  max-width: 800px;
 }
 .image-qoute > h3{
   font-size: 4vmax;
