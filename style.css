@@ -272,12 +272,12 @@ h1{
   font-family: "Lato",sans-serif;
   background: rgba(252, 247, 248, 0.5);
   margin: auto;
-  margin-top: 60px;
+  margin-top: 30px;
   
 }
 
 h3{
-  margin: 50px 0 50px 0;
+  margin: 30px 0 50px 0;
   width: 100%;
   font-weight: 300;
   font-size: 25px;
@@ -345,6 +345,7 @@ font-size: 20px;
 .navigationfoot > a{
   color: #FFFFFF;
   margin-bottom: 10px;
+  font-size: smaller;
 }
 
 .landinglogo{
@@ -392,6 +393,7 @@ font-size: 20px;
   text-align: center;
   margin: 0 0 15px 0;
   font-family: "Lato",sans-serif;
+  font-weight: 300;
 }
 
 .testwrap{
@@ -522,16 +524,15 @@ font-size: 20px;
 .aboutuspic{
   width: 100%;
   height: auto;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/normpics/office.jpg");
+  background-image: url("/pictures/normpics/group.jpg");
   background-repeat: none;
   background-size: cover;
   align-items: center;
   height: 450px;
   background-position-x: center;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
-  background-position: right;
 }
 
 .role{
@@ -540,7 +541,7 @@ font-size: 20px;
 
 .servicepic{
   width: 100%;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/rockin\ norm.jpg");
+  background-image: url("/pictures/rockin\ norm.jpg");
   background-repeat: none;
   background-size: cover;
   align-items: center;
@@ -557,7 +558,7 @@ font-size: 20px;
 .restorativepic{
   width: 100%;
   height: auto;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/GettyImages-1302979557.webp");
+  background-image: url("/pictures/GettyImages-1302979557.webp");
   background-repeat: none;
   background-size: cover;
   align-items: center;
@@ -573,7 +574,7 @@ font-size: 20px;
 .cosmeticpic{
   width: 100%;
   height: auto;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/the-lifespan-of-a-dental-filling.jpg");
+  background-image: url("/pictures/the-lifespan-of-a-dental-filling.jpg");
   background-repeat: none;
   background-size: cover;
   align-items: center;
@@ -589,7 +590,7 @@ font-size: 20px;
 .prospheticpic{
   width: 100%;
   height: auto;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/Pediatric.webp");
+  background-image: url("/pictures/Pediatric.webp");
   background-repeat: none;
   background-size: cover;
   align-items: center;
@@ -605,7 +606,7 @@ font-size: 20px;
 .pediatricpic{
   width: 100%;
   height: auto;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/2017-02-ChildrensDentalMonth.jpg");
+  background-image:url("/pictures/2017-02-ChildrensDentalMonth.jpg");
   background-repeat: none;
   background-size: cover;
   align-items: center;
@@ -621,7 +622,7 @@ font-size: 20px;
 .contactpic{
   width: 100%;
   height: auto;
-  background-image:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.5)), url("/pictures/normpics/contact.jpg");
+  background-image:url("/pictures/normpics/contact.jpg");
   background-repeat: none;
   background-size: cover;
   align-items: center;
@@ -793,6 +794,15 @@ font-size: 20px;
 
 .background-white{
   background: white;
+}
+.slick-slide img {
+  display: block;
+  width: 100%;
+}
+.landing-wrap{
+  width: 100%;
+  max-width: 1200px;
+  margin:auto;
 }
 
 
