@@ -535,11 +535,12 @@ font-size: 20px;
   background-repeat: none;
   background-size: cover;
   align-items: center;
-  height: 450px;
+  height: 750px;
   background-position-x: center;
   display: flex;
   align-items: baseline;
   justify-content: center;
+  background-position: center;
 }
 
 .role{
@@ -559,6 +560,8 @@ font-size: 20px;
   justify-content: center;
   background-position: top;
   position: relative;
+  max-width: 800px;
+  margin: auto;
 }
 
 
@@ -576,6 +579,8 @@ font-size: 20px;
   justify-content: center;
   background-position: center;
   position: relative;
+  max-width: 800px;
+  margin: auto;
 }
 
 .cosmeticpic{
@@ -592,6 +597,8 @@ font-size: 20px;
   justify-content: center;
   background-position: right;
   position: relative;
+  max-width: 800px;
+  margin: auto;
 }
 
 .prospheticpic{
@@ -608,6 +615,8 @@ font-size: 20px;
   justify-content: center;
   background-position: center;
   position: relative;
+  max-width: 800px;
+  margin: auto;
 }
 
 .pediatricpic{
@@ -624,6 +633,8 @@ font-size: 20px;
   justify-content: center;
   background-position: right;
   position: relative;
+  max-width: 800px;
+  margin: auto;
 }
 
 .contactpic{
@@ -855,6 +866,9 @@ font-size: 20px;
   }
   .service-card{
     max-width: 150px;
+  }
+  .aboutuspic{
+    height: 450px;
   }
 }
 
