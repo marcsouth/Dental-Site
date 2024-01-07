@@ -270,7 +270,7 @@ h1{
   color: #1B262C;
   font-weight: 300;
   font-family: "Lato",sans-serif;
-  background: rgba(252, 247, 248, 0.5);
+ 
   margin: auto;
   margin-top: 30px;
   
@@ -536,12 +536,14 @@ font-size: 20px;
   background-repeat: none;
   background-size: cover;
   align-items: center;
-  height: 750px;
+  height: 800px;
+  margin: auto;
   background-position-x: center;
   display: flex;
   align-items: baseline;
   justify-content: center;
-  background-position: center;
+  background-position: bottom;
+  max-width: 1200px;
 }
 
 .role{
@@ -888,6 +890,12 @@ width: 100%;
   .image-qoute-service-right{
     flex-direction: column-reverse;
   }
+  .aboutuspic{
+    height: 550px;
+  }
+  .image-qoute > img {
+    max-width: 800px;
+  }
 }
 
 
@@ -917,7 +925,7 @@ width: 100%;
     max-width: 150px;
   }
   .aboutuspic{
-    height: 450px;
+    height: 350px;
   }
   .image-qoute > img{
     width: 100%;
