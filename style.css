@@ -411,6 +411,9 @@ font-size: 20px;
   padding:10px;
   flex-direction: column;
 }
+.marc-link{
+  color: white;
+}
 
 .testimonial{
   background: white;
