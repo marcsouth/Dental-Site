@@ -423,6 +423,7 @@ font-size: 20px;
   max-width: 350px;
   font-size: 20px;
   line-height: 140%;
+  padding-inline: 20px;
 }
 
 .whitelogo{
@@ -460,7 +461,7 @@ font-size: 20px;
   color: #1B262C;
   font-size: 20px;
   line-height: 140%;
-  max-width: 1200px;
+  max-width: 900px;
   margin: auto;
   margin-top: 15px;
   padding-inline: 20px;
@@ -661,7 +662,6 @@ font-size: 20px;
   display: flex;
   width: 100%;
   align-items: center;
-  margin-bottom: 35px;
   margin-top: 2rem;
   justify-content: center;
   flex-direction: column;
@@ -802,13 +802,53 @@ font-size: 20px;
   margin-bottom: 60px;
 }
 .image-qoute > img{
-  width: 100%;
-  max-width: 800px;
+  display: flex;
+  width:100%;
+  max-width: 700px;
 }
+.image-qoute-service{
+  display: flex;
+width: 100%;
+  margin-bottom: 60px;
+  align-items: center;
+  justify-content:space-between;
+}
+.image-qoute-service-right{
+  display: flex;
+width: 100%;
+  margin-bottom: 60px;
+  align-items: center;
+  justify-content:space-between;
+}
+
 .image-qoute > h3{
-  font-size: 6vmax;
+  font-size: 4vmax;
   color: #FFFFFF;
+  width: 100%;
 }
+.image-qoute-service > img{
+  display: flex;
+  width:100%;
+  max-width: 900px;
+}
+.image-qoute-service-right > img{
+  display: flex;
+  width:100%;
+  max-width: 900px;
+}
+
+.service-text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-text-container > h3{
+  font-size: 4vmax;
+  margin: 10px 0 10px 0;
+}
+
 
 .background-white{
   background: white;
@@ -841,6 +881,15 @@ font-size: 20px;
     font-weight: 300;
 }
 
+@media screen and (max-width: 1024px) {
+  .image-qoute-service{
+    flex-direction: column;
+  }
+  .image-qoute-service-right{
+    flex-direction: column-reverse;
+  }
+}
+
 
 @media screen and (max-width: 500px) {
   .footersplit{
@@ -869,6 +918,9 @@ font-size: 20px;
   }
   .aboutuspic{
     height: 450px;
+  }
+  .image-qoute > img{
+    width: 100%;
   }
 }
 
