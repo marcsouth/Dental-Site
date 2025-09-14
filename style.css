@@ -462,7 +462,7 @@ h3{
 .aboutuspic{
 	width: 100%;
 	height: auto;
-	background-image: url("/pictures/normpics/new-group-pic.jpg");
+	background-image: url("/pictures/normpics/new_about_pic_2.jpg");
 	background-repeat: none;
 	background-size: cover;
 	align-items: center;
@@ -565,7 +565,7 @@ h3{
 .contactpic{
 	width: 100%;
 	height: auto;
-	background-image:url("/pictures/normpics/contact-background.jpg");
+	background-image:url("/pictures/normpics/new-contact-backgound.png");
 	background-repeat: none;
 	background-size: contain;
 	align-items: center;
